@@ -6,6 +6,13 @@
     android:padding="16dp"
     tools:context=".LoginActivity">
 
+    <TextView
+        android:text="@string/random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -25,6 +32,7 @@
             android:hint="@string/Username_hint"
             android:textSize="16sp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -69,10 +77,10 @@
 
     <Button
         android:id="@+id/ok_button"
-        android:layout_gravity="end"
         android:layout_width="wrap_content"
-        android:text="@string/Submit"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/Submit" />
 
 
 </LinearLayout>
